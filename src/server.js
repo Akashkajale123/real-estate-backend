@@ -9,7 +9,7 @@ dotEnv.config();
 const app = express();
 const PORT = process.env.PORT;
 
-const URI =process.env.secrete_uri;
+const URI ="mongodb+srv://akashkajale125:BuzgMLM7KAsGVGix@cluster1.fnodolx.mongodb.net/Real_Estate_properties?retryWrites=true&w=majority";
 
 // Database connection
 const connectDB = async () => {
