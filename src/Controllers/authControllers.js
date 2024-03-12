@@ -46,7 +46,7 @@ exports.signIn = async (req, res) => {
     console.error(error);
     return res
       .status(500)
-      .json({ status: "error", message: "Internal Server Error" });
+      .json({ status: "error", message: "Internal Server Error work" });
   }
 };
 
